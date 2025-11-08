@@ -184,42 +184,7 @@ const cartSchema = new mongoose.Schema({
 3. Backend fetches product details via API → saves to MongoDB  
 4. Cart page retrieves all items from MongoDB and calculates total cost  
 
----
 
-## 🧰 Available Scripts
 
-### In `/backend`
-| Command | Description |
-|:--|:--|
-| `npm start` | Starts Express server |
 
-### In `/frontend`
-| Command | Description |
-|:--|:--|
-| `npm run dev` | Runs Vite dev server |
-| `npm run build` | Builds the React app for production |
 
----
-
-## 🧠 Notes
-
-- Ensure `express.json()` middleware is enabled in `server.js`
-- Atlas cluster IP whitelist must include `0.0.0.0/0` for local testing  
-- Both frontend and backend must run simultaneously  
-
----
-
-## 📸 Example Screens
-
-| Product Grid | Cart Page |
-|:--:|:--:|
-| ![Products Grid](https://fakestoreapi.com/icons/logo.png) | ![Cart Page](https://fakestoreapi.com/icons/logo.png) |
-
-*(Replace with your screenshots after testing.)*
-
----
-
-## 🏁 Future Improvements
-- User login & authentication  
-- Persistent sessions per user  
-- Stripe or Razorpay integration for checkout  
