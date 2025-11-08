@@ -69,7 +69,7 @@ E-Com-Assignment/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/E-Com-Assignment.git
+git clone https://github.com/gituser708/E-Com-Assignment.git
 cd E-Com-Assignment
 ```
 
@@ -112,7 +112,7 @@ Mongo DB Connected to: E-Com-Assignment
 ### 4️⃣ Frontend Setup
 
 ```bash
-cd ../frontend
+cd frontend
 npm install
 ```
 
